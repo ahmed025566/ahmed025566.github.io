@@ -73,13 +73,13 @@ body {
   border-radius: 6px;
 }
 
-.intro {
+.headline {
   width: 375px;
   height: 600px;
-  background: url(assets/intro\ background.jpg);
+  background: rgba(122, 122, 122, 0.2);
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
 }
 
 .heading {
@@ -87,45 +87,42 @@ body {
   font-size: 24px;
   position: absolute;
   top: 13.8%;
-  left: 10%;
+  left: 23%;
 }
 
-.intro h2 {
+.headline h2 {
   color: #ec5242;
-  width: 260px;
   line-height: 40px;
   font-size: 35px;
   position: absolute;
-  top: 19%;
-  left: 10%;
+  top: 21%;
+  left: 15%;
+  width: 90%;
 }
 
-.paragraph {
+.decription {
+  width: 80%;
+  height: 110px;
+  background-color: #fff;
   color: #272a31;
   position: absolute;
-  width: 75%;
-  top: 37%;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  left: 10%;
+  top: 40%;
+  left: 7.5%;
+  border-radius: 5px;
+  text-align: center;
   padding: 10px;
-  border: 2px solid #d3d3d3;
 }
 
-.date {
-  color: #272a31;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
+.contact {
+  width: 88%;
+  font-size: 12px;
   position: absolute;
-  top: 60%;
-  left: 10%;
-  line-height: 35px;
-}
-
-.date span {
-  font-size: 30px;
-  font-weight: 900;
+  top: 67%;
+  color: #272a31;
+  left: 5%;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 600;
 }
 
 .fa-dollar-sign {
@@ -153,187 +150,173 @@ body {
 }
 
 .trading-bot {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   bottom: 10%;
   right: 10%;
 }
 
-.program {
+.logo-part {
   width: 375px;
-  height: 800px;
-  background: url(assets/our\ futers\ background.jpg);
+  height: 500px;
+  background-color: #fff;
   position: absolute;
-  left: 0;
   top: 600px;
+  left: 0;
+  border-bottom: 2px solid #d3d3d3;
 }
 
-.program h2 {
-  color: #d3d3d3;
+.head {
+  color: #272a31;
   position: absolute;
-  left: 33.33%;
+  left: 22%;
+  top: 5%;
 }
 
-.bottom-line {
-  width: 50px;
-  height: 1.5px;
-  z-index: 33;
+.style {
+  color: #272a31;
+  position: absolute;
+  left: 13%;
+  top: 15%;
+}
+
+.red-line {
+  width: 30px;
+  height: 2px;
   background-color: #ec5242;
   position: absolute;
-  top: 10%;
+  top: 27%;
   left: 45%;
 }
 
-.futers {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 375px;
-  height: 500px;
-  position: absolute;
-  top: 16%;
-}
-
-.future {
-  width: 90%;
-  height: 90px;
-  background-color: rgba(122, 122, 122, 0.5);
-  display: flex;
-  align-items: center;
-}
-
-.future img {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 40px;
-}
-
-footer p {
-  position: absolute;
-  left: 25%;
-  bottom: 10%;
+.purpose {
+  color: #272a31;
+  width: 80%;
+  left: 10%;
   text-align: center;
-}
-
-.futers p {
-  color: #ec5242;
+  line-height: 25px;
   position: absolute;
-  left: 100px;
-  font-size: 18px;
-}
-
-.future .description {
-  color: #d3d3d3;
+  top: 30%;
   font-size: 13px;
-  width: 150px;
-  left: 200px;
+  font-weight: 600;
 }
 
-.join {
-  width: 85%;
-  height: 90px;
-  background-color: #ec5242;
-  color: #d3d3d3;
-  font-size: 30px;
+.logo-div {
   position: absolute;
-  bottom: 7%;
-  left: 7%;
-  border: none;
+  top: 50%;
+  width: 90%;
+  left: 5%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 2px;
 }
 
-.Instructors {
+.logo-div img {
+  width: 80%;
+  height: 70px;
+}
+
+.past {
   width: 375px;
-  height: 1450px;
+  height: 750px;
   position: absolute;
-  top: 1400px;
+  top: 1100px;
   left: 0;
 }
 
-.Instructors h2 {
-  color: #272a31;
+.past h3 {
   position: absolute;
-  left: 28%;
-  top: 2%;
+  left: 20%;
+  top: 4%;
+  color: #272a31;
 }
 
-.Instructors .bottom-line {
-  top: 7%;
+.red-line1 {
+  width: 30px;
+  height: 2px;
+  background-color: #ec5242;
+  position: absolute;
+  top: 11%;
+  left: 45%;
 }
 
-.container {
+.look {
+  text-align: center;
   position: absolute;
   top: 12%;
+  left: 15%;
+  color: #272a31;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
-.teacher {
-  width: 90%;
+.background {
+  position: absolute;
+  top: 25%;
+  left: 7.5%;
+  width: 85%;
   height: 200px;
+  background-image: url(assets/webinar\ 1.jpg);
+  background-size: 111%;
+  background-repeat: no-repeat;
 }
 
-.teacher-img {
-  width: 120px;
-  height: 120px;
+.layer {
+  background-color: rgba(236, 82, 66, 0.6);
   position: absolute;
-  left: 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.baw {
-  width: 70px;
-  height: 70px;
+.year {
+  color: #d3d3d3;
+  font-size: 35px;
   position: absolute;
-  z-index: -1;
-  margin-top: -15px;
-  left: 10px;
-}
-
-.teacher h3 {
-  position: absolute;
-  left: 43%;
-  margin-top: -20px;
-  color: #272a31;
-}
-
-.teacher .summary {
-  color: #ec5242;
-  font-style: italic;
-  position: absolute;
-  left: 43%;
-  margin-top: 10px;
-}
-
-.teacher .description {
-  color: #272a31;
-  font-weight: 500;
-  width: 60%;
-  position: relative;
-  left: 48%;
   top: 20%;
+  left: 38%;
 }
 
-.gray-line {
-  width: 35px;
-  height: 1.8px;
-  background-color: #d3d3d3;
-  position: relative;
-  left: 48%;
+.first {
+  color: #d3d3d3;
+  font-size: 30px;
+  position: absolute;
+  top: 43%;
+  left: 15%;
 }
 
-.first,
-.third,
-.forth {
-  margin-top: -55px;
+.background1 {
+  position: absolute;
+  top: 60%;
+  left: 7.5%;
+  width: 85%;
+  height: 200px;
+  background-image: url(assets/webinar\ 1.jpg);
+  background-size: 111%;
+  background-repeat: no-repeat;
 }
 
-.second,
-.fifth {
-  margin-top: -38px;
+.layer1 {
+  background-color: rgba(236, 82, 66, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.sixth {
-  margin-top: -20px;
+.second {
+  color: #d3d3d3;
+  font-size: 30px;
+  position: absolute;
+  top: 43%;
+  left: 7%;
 }
 
 .partenrs {
@@ -342,7 +325,7 @@ footer p {
   background-color: #272a31;
   position: absolute;
   left: 0;
-  top: 2850px;
+  top: 1850px;
 }
 
 .partenrs h2 {
@@ -389,7 +372,7 @@ footer {
   height: 200px;
   background-color: #d3d3d3;
   position: absolute;
-  top: 3050px;
+  top: 2050px;
   left: 0;
 }
 
@@ -400,6 +383,17 @@ footer {
   left: 17%;
   top: 15%;
   border-radius: 5px;
+}
+
+footer p {
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  text-align: center;
+}
+
+.add {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -490,214 +484,112 @@ footer {
     padding: 10px;
   }
 
-  .intro {
+  .headline {
     width: 100vw;
     top: 120px;
   }
 
   .heading {
-    font-size: 50px;
-    top: 10%;
+    font-size: 35px;
+    left: 40%;
+    margin-bottom: 30px;
   }
 
-  .intro h2 {
-    font-size: 65px;
-    width: 600px;
-    line-height: 65px;
-    top: 20%;
+  .headline h2 {
+    left: 33%;
+    margin-top: 40px;
   }
 
-  .paragraph {
+  .decription {
     width: 50%;
-    top: 50%;
+    left: 25%;
   }
 
-  .date {
-    top: 65%;
+  .add {
+    display: inline-block;
   }
 
-  .date span {
-    font-size: 40px;
-    font-weight: 700;
-  }
-
-  .program {
-    top: 720px;
+  .logo-part {
     width: 100vw;
-    height: 600px;
+    top: 720px;
   }
 
-  .program h2 {
-    left: 39%;
-    font-size: 44px;
+  .head {
+    font-size: 33px;
+    left: 37%;
   }
 
-  .bottom-line {
-    left: 46%;
-    width: 60px;
-    top: 17%;
+  .style {
+    font-size: 26px;
+    left: 36%;
   }
 
-  .futers {
-    width: 90%;
-    flex-direction: row;
-    gap: 5px;
-    height: 400px;
-    left: 5%;
-    top: 14%;
+  .purpose {
+    left: 32%;
+    width: 30%;
   }
 
-  .future {
-    width: 20%;
-    height: 70%;
+  .logo-div {
+    width: 30%;
+    left: 33%;
   }
 
-  .future img {
-    position: relative;
-    top: -60px;
+  .logo-div img {
+    height: 90px;
+    border-radius: 6px;
+  }
+
+  .past {
+    top: 1220px;
+    width: 100vw;
+  }
+
+  .past h3 {
+    font-size: 30px;
+    top: 1%;
     left: 35%;
-    width: 65px;
-    height: 65px;
   }
 
-  footer p {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 25px;
-    left: 45%;
-    top: 33%;
+  .red-line1 {
+    left: 46%;
   }
 
-  .future p {
-    position: relative;
-    left: 0;
-    top: -5px;
+  .look {
+    left: 33%;
+    top: 12%;
   }
 
-  #s,
-  #w {
-    left: 15px;
-  }
-
-  #bot,
-  #news,
-  #signs {
-    left: 32px;
-  }
-
-  .future .description {
-    position: relative;
-    margin-left: -270px;
-    text-align: center;
-    top: 50px;
-    width: 80%;
-    line-height: 22px;
-    font-weight: 600;
-  }
-
-  #d,
-  #work {
-    top: 50px;
-    left: 150px;
-  }
-
-  .join {
+  .look br {
     display: none;
   }
 
-  .whole {
-    color: #d3d3d3;
-    font-size: 30px;
-    position: absolute;
-    bottom: 10%;
-    left: 40%;
+  .background {
+    width: 30%;
+    height: 300px;
+    left: 15%;
+    background-size: 125%;
   }
 
-  .Instructors {
-    top: 1320px;
-    width: 100vw;
-    height: 680px;
+  .background1 {
+    width: 30%;
+    height: 300px;
+    background-size: 125%;
+    left: 50%;
+    top: 25%;
   }
 
-  .Instructors h2 {
-    left: 38%;
-    top: -3%;
-    font-size: 35px;
-  }
-
-  .Instructors .bottom-line {
-    top: 8.5%;
-    left: 45%;
-  }
-
-  #speaker1 {
-    position: relative;
-    left: 23%;
-  }
-
-  .teacher h3 {
-    left: 35%;
-  }
-
-  .teacher .summary {
-    left: 35%;
-  }
-
-  .teacher .description {
-    left: 35%;
-  }
-
-  .gray-line {
-    left: 35%;
+  .year {
+    top: 30%;
   }
 
   .first,
-  .third,
-  .forth {
-    margin-top: -50px;
-  }
-
-  #speaker2 {
-    position: relative;
-    left: 120%;
-    top: -215px;
-  }
-
-  .second,
-  .fifth {
-    margin-top: -46px;
-  }
-
-  #speaker3 {
-    position: relative;
-    left: 23%;
-    top: -220px;
-  }
-
-  #speaker4 {
-    position: relative;
-    left: 120%;
-    top: -440px;
-  }
-
-  #speaker5 {
-    position: relative;
-    left: 23%;
-    top: -450px;
-  }
-
-  #speaker6 {
-    position: relative;
-    left: 120%;
-    top: -670px;
-  }
-
-  .sixth {
-    margin-top: -30px;
+  .second {
+    left: 22%;
+    top: 50%;
   }
 
   .partenrs {
-    top: 2000px;
+    top: 1800px;
     width: 100vw;
     height: 250px;
   }
@@ -738,13 +630,21 @@ footer {
   }
 
   footer {
-    top: 2250px;
+    top: 2050px;
     width: 100vw;
   }
 
   .footer-img {
     top: 30%;
     left: 20%;
+  }
+
+  footer p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    left: 45%;
+    top: 33%;
   }
 }
 
@@ -754,10 +654,6 @@ footer {
   }
 
   .icahn {
-    display: none;
-  }
-
-  .whole {
     display: none;
   }
 }
